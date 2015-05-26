@@ -8,13 +8,14 @@
 ## Implementation Order:
 - Twilio Send Sms
 
-```js
+```javascript
 M.Twilio.sendMessage({
   to:'+16515556677', // Any number Twilio can deliver to
   from: '+14506667788', // A number you bought from Twilio and can use for outbound communication
   body: 'Yo, dude, whats up?' // body of the SMS message
 });
 ```
+
 - Twilio Recieve Sms
 ```
 - Giphy Image Search 1
